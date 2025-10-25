@@ -1,4 +1,3 @@
-// app/providers.tsx
 'use client';
 
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
@@ -9,7 +8,7 @@ import { RainbowKitProvider, getDefaultConfig } from '@rainbow-me/rainbowkit';
 const config = createConfig(
   getDefaultConfig({
     appName: 'Daily GM',
-    projectId: 'YOUR_WALLETCONNECT_PROJECT_ID', // ← Ganti ini!
+    projectId: 'YOUR_WALLETCONNECT_PROJECT_ID', // ← GANTI INI!
     chains: [base, baseSepolia],
     ssr: true,
   })
